@@ -24,7 +24,6 @@ def main():
         elif discriminante ==0:
             x = -b/(2*a)
             print(x)
-    
 
 
 if __name__ == '__main__':

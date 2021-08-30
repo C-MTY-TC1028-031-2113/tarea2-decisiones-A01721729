@@ -3,6 +3,7 @@ def main():
     peso = float(input("Peso en kg: "))
     altura = float(input("Altura en m: "))
 
+
     if(peso <=0 or altura <= 0):
         print("Revisa tus datos, alguno de ellos es erróneo.")
     else:

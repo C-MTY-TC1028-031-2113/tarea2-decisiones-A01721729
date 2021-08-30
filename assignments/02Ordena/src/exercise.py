@@ -4,6 +4,7 @@ def main():
     y = int(input("Ingresa el segundo número: "))
     z = int(input("Ingresa el tercer número: "))
     
+    
     if(x<y<z):
         print(x)
         print(y)

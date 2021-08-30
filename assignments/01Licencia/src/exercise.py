@@ -7,19 +7,16 @@ def main():
     elif(edad<18):
         print("No cumples requisitos")
     else:
-        identificacion = input("¿Tienes identificación oficial? (s/n): ")
-        
-        if(identificacion != "s" and identificacion != "n"):
+        ident_Oficial = input("¿Tienes identificación oficial? (s/n): ")
+
+        if(ident_Oficial  != "s" and ident_Oficial  != "n"):
             print("Respuesta incorrecta")
 
-        elif(identificacion =="n"):
+        elif(ident_Oficial  =="n"):
             print("No cumples requisitos")
 
-        elif(edad>=18 and identificacion=="s"):
+        elif(edad>=18 and ident_Oficial =="s"):
             print("Trámite de licencia concedido")
             
-
-
-
 if __name__ == '__main__':
     main()
